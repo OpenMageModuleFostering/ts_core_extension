@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package>
+    <name>ts_core_extension</name>
+    <version>0.1.1</version>
+    <stability>stable</stability>
+    <license>CL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>A core module that other Template Studio's modules depend on. </summary>
+    <description>&lt;h2&gt;Templatestudio Core&lt;/h2&gt;&#xD;
+&lt;h3&gt;What is Templatestudio Core?&lt;/h3&gt;&#xD;
+&lt;p&gt;&lt;strong&gt;Templatestudio Core&lt;/strong&gt; is the base extension required by all our other extensions.&lt;/p&gt;&#xD;
+&lt;p&gt;It contains common functionality required by many extensions distributed by Template Studio. &lt;/p&gt; </description>
+    <notes>0.1.1</notes>
+    <authors><author><name>Nick</name><user>TemplateStudio</user><email>support@templatestudio.com</email></author></authors>
+    <date>2016-02-03</date>
+    <time>11:30:23</time>
+    <contents><target name="magelocal"><dir name="Templatestudio"><dir name="Core"><dir name="Block"><dir name="Adminhtml"><dir name="System"><dir name="Config"><dir name="Form"><dir name="Field"><dir name="Array"><file name="Abstract.php" hash="1f119e4fbd7c506c8681e61339fd2c96"/></dir><file name="Version.php" hash="d0f6b81c14d3fb3f6aa456439bfa285f"/></dir><dir name="Fieldset"><dir name="Templatestudio"><file name="Extensions.php" hash="b2574a3e7050f52cd67230a866a74b22"/></dir></dir></dir></dir></dir></dir></dir><dir name="Helper"><file name="Abstract.php" hash="a10c6e031cee83400dbbcb3587d33792"/><file name="Data.php" hash="7a6ccccc427846ef170a5c0fec39d815"/></dir><dir name="Model"><dir name="Config"><file name="Abstract.php" hash="98ffa860d669cf5d711802dd53e16281"/></dir><file name="Extension.php" hash="b9797584f27752bafbb7fca88763ca3d"/><file name="Feed.php" hash="348d78a59243febb59dbe773080b8b79"/></dir><dir name="etc"><file name="adminhtml.xml" hash="9302da64941aa729aacd592dc9112838"/><file name="config.xml" hash="1454d9afdbfe4d9307491a496e16f2e9"/><file name="system.xml" hash="a1ed89b2b00337c481054fb3d07aa3f8"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Templatestudio_Core.xml" hash="0957c5b2490c3bbacbf3d92ee6f126d4"/></dir></target><target name="magelocale"><dir name="en_US"><file name="Templatestudio_Core.csv" hash="eb3e5f0931b3d0208389e360636847ff"/></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><dir name="templatestudio"><file name="core.xml" hash="5f79ca7af6eb7bc7464e43386c87e97d"/></dir></dir></dir></dir></dir></target><target name="mageskin"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="templatestudio"><dir name="css"><file name="core.css" hash="756531704f2199bfd71588b46a1f934a"/></dir><dir name="images"><file name="logo-core-tab.gif" hash="889994234872a52a69f2cb737dc4494d"/><file name="templatestudio-quote.jpg" hash="ce70aeec0f257d2ebfe68f585f4047f3"/><file name="ok.gif" hash="a38bc2ee6e116e39c6e2e3013ee50f5e"/><file name="update.gif" hash="8342e11f7739fcfa25134707f0536ed6"/><file name="bad.gif" hash="b8379f1ba7ab552ca46b9d5fd0452345"/></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.3.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    TemplateStudio UK
+-->
+<config>
+    <menu>
+        <tepmplatestudio translate="title" module="tscore">
+            <title>Templatestudio</title>
+            <sort_order>9999</sort_order>
+        </tepmplatestudio>
+    </menu>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <templatestudio translate="title" module="tscore">
+                                        <title>Templatestudio</title>
+                                    </templatestudio>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>

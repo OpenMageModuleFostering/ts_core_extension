@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/ts_core_extension",
+    "type": "magento-module",
+    "license": "CL",
+    "homepage": "",
+    "description": "A core module that other Template Studio's modules depend on. ",
+    "authors": [
+    {
+        "name": "Nick",
+        "email": "support@templatestudio.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

@@ -1,0 +1,6 @@
+/**
+    Templatestudio UK
+ */
+.templatestudio-installed-extensions td.label label img { margin-right: 5px; vertical-align: middle; }
+.templatestudio-installed-extensions td.value img { margin-left: 5px; vertical-align: middle; }
+#templatestudio-core-quote { float: right; }
